@@ -7,6 +7,15 @@ const myController = require("../controllers")
 //     res.json('Jade Furtado')
 // });
 
+/**
+ * Parameters
+ * hello string
+ */
+
+// GET all, GET by id, PUT, Post, and DELETE
 routes.get('/', myController.awesomeFunction);
+routes.put('/', (req, res, next)=>{console.log('hello')});
+routes.post('/', (req, res, next)=>{console.log('hello')});
+routes.delete('/', (req, res, next)=>{console.log('hello')});
 
 module.exports = routes;
