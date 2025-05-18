@@ -11,9 +11,9 @@
     "http"
   ],
   "paths": {
-    "/": {
+    "/contacts": {
       "get": {
-        "description": "Some description...",
+        "description": "Get all",
         "responses": {
           "200": {
             "description": "OK"
