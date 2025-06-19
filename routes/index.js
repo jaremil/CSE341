@@ -17,5 +17,7 @@ routes.get('/contacts', myController.awesomeFunction);
 routes.put('/contacts', (req, res, next)=>{console.log('hello')});
 routes.post('/contacts', (req, res, next)=>{console.log('hello')});
 routes.delete('/contacts', (req, res, next)=>{console.log('hello')});
+router.use('/contacts', require('./contacts'))
+
 
 module.exports = routes;
