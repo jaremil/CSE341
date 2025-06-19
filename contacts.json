@@ -1,23 +1,23 @@
 {
   "contact": {
-    "firstName": "Sarah",
-    "lastName": "Birch",
-    "email": "amazingwoman@test.com",
+    "firstName": "Nicholas",
+    "lastName": "Furtado",
+    "email": "nicholascostafurtado@fake.com",
     "favoriteColor": "Green",
-    "birthday": "12/12/20"
+    "birthday": "02/04/01"
   },
   "contact2": {
-    "firstName": "Jimmy",
-    "lastName": "Carter",
-    "email": "jCarter@test.com",
-    "favoriteColor": "Purple",
-    "birthday": "07/12/10"
+    "firstName": "Suzette",
+    "lastName": "Miller",
+    "email": "suz4573@fake.com",
+    "favoriteColor": "Blue",
+    "birthday": "10/04/70"
   },
   "contact3": {
-    "firstName": "Cassandra",
-    "lastName": "Anderson",
-    "email": "AndersonC@test.com",
-    "favoriteColor": "Yellow",
-    "birthday": "02/22/95"
+    "firstName": "Ally",
+    "lastName": "Wakefield",
+    "email": "AWakefield6@fake.com",
+    "favoriteColor": "Red",
+    "birthday": "01/21/77"
   }
 }
