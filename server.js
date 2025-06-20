@@ -1,7 +1,7 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
-
 const port = process.env.PORT || 8080;
 const app = express();
 
@@ -22,6 +22,5 @@ mongodb.initDb((err) => {
   }
 });
 
-// require('dotenv').config();
-// const configFile = process.env.CONFIG_FILE_NAME;
-// console.log(configFile);
+const configFile = process.env.CONFIG_FILE_NAME;
+console.log(configFile);
