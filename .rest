@@ -1,3 +1,6 @@
+GET http://localhost:3000 HTTP/1.1
 
 ###
 GET https://cse341-jeij.onrender.com HTTP/1.1
+
+// https://cse341-6it5.onrender.com/api-docs
