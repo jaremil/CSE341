@@ -22,6 +22,6 @@ mongodb.initDb((err) => {
   }
 });
 
-require('dotenv').config();
-const configFile = process.env.CONFIG_FILE_NAME;
-console.log(configFile);
+// require('dotenv').config();
+// const configFile = process.env.CONFIG_FILE_NAME;
+// console.log(configFile);
