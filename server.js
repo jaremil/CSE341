@@ -21,8 +21,3 @@ mongodb.initDb((err) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
-
-require('dotenv').config();
-const configFile = process.env.CONFIG_FILE_NAME;
-const swaggerFile = process.env.SWAGGER_FILE_NAME;
-console.log(configFile);
